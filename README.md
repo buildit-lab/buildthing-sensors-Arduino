@@ -76,7 +76,7 @@ This is an Arduino IDE library to BC Sensor Series
 
 - **Step 2** Select the example
 
-  Select the example of the sensor module you own. And libraries needed for the example are located in the same folder.
+  Select the example of the sensor module you own. And the library files are needed to be located in the same folder with the example files. 
   
   **BC_Seonsr_Series.ino** -BC_SENSORS.cpp, BC_SENSORS.h, BCACC316G.cpp, BCACC316G.h, BCALS083K.cpp, BCALS083K.h, BCAQS1187.cpp, BCAQS1187.h, BCDPDC100.cpp, BCDPDC100.h, BCHTS4085.cpp, BCHTS4085.h
                          
@@ -96,7 +96,7 @@ This is an Arduino IDE library to BC Sensor Series
   
 - **Step 3** Edit code
 
-Feel free to start from the example sketch, or begin writing your own code using the functions provided by the library. In general, to quickly learn how to use a library check out the example code.
+Feel free to start from the example sketch, or begin writing your own code using the functions provided by the library. In general, users  check out the example code to learn faster how to use the library. 
 
 
 You’ll have to include the library, create a sensor object in the global space, and then use functions of that object to begin and control the sensor. With this one, pass the I2C address to the object during construction.
