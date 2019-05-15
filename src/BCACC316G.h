@@ -202,7 +202,7 @@ void setJustifyBit(bool justifyBit);
 void printAllRegister();
 
 private:
-  int _addr;                  // Address of sensor 
+int _addr;                  // Address of sensor 
 void writeTo(byte address, byte val);
 void readFrom(byte address, int num, byte buff[]);
 void setRegisterBit(byte regAdress, int bitPos, bool state);

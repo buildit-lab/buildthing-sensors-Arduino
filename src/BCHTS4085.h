@@ -1,5 +1,5 @@
 /*
-	BCHTS4085.h
+  BCHTS4085.h
   Created By: sy.baik, 2018-05-25
   
   This library facilitates communication with, and configuration of, 
@@ -27,7 +27,7 @@
   #define TEMP_THR_H 0x0B
   #define HUMID_THR_L 0x0C
   #define HUMID_THR_H 0x0D
-  #define CONFIG 0x0E
+  #define BCHTS4085_CONFIG 0x0E
   #define MEASUREMENT_CONFIG 0x0F
   #define MID_L 0xFC
   #define MID_H 0xFD

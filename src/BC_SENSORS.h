@@ -24,7 +24,7 @@
  * Select include files. 
  * Select include file of the sensors, modify this section.
  ************************************************************************/
-  #include "BCDPDC100.h"  //TMD2671 Digital Proximity Detector
+  #include "BCDPDC100.h" //TMD2671 Digital Proximity Detector
   #include "BCHTS4085.h"  //HDC2010 Temperature and Humidity Sensor
   #include "BCALS083K.h"  //OPT3001Q1 Ambient Light Sensor
   #include "BCACC316G.h"  //ADXL343 3-Axis Accelerometer

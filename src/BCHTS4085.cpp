@@ -1,6 +1,6 @@
 /*
-	BCHTS4085.cpp
-	Created By: sy.baik, 2018-05-25
+  BCHTS4085.cpp
+  Created By: sy.baik, 2018-05-25
   
   This library facilitates communication with, and configuration of, 
   the BCHTS4085 Sensor(HDC2010_Temperature and Humidity Sensor) for Arduino. . 
@@ -46,12 +46,12 @@ void BCHTS4085::enableHeater(void)
 {
 	uint8_t configContents;	//Stores current contents of config register
 	
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 	
 	//set bit 3 to 1 to enable heater
 	configContents = (configContents | 0x08);
 	
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 	
 }
 
@@ -59,11 +59,11 @@ void BCHTS4085::disableHeater(void)
 {
 	uint8_t configContents;	//Stores current contents of config register
 	
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 	
 	//set bit 3 to 0 to disable heater (all other bits 1)
 	configContents = (configContents & 0xF7);
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 	
 }
 
@@ -343,10 +343,10 @@ void BCHTS4085::triggerMeasurement(void)
 void BCHTS4085::reset(void)
 {
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 
 	configContents = (configContents | 0x80);
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 	delay(50);
 }
 
@@ -355,10 +355,10 @@ void BCHTS4085::reset(void)
 void BCHTS4085::enableInterrupt(void)
 {
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 
 	configContents = (configContents | 0x04);
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 }
 
 /*  Bit 2 of the CONFIG register can be used to enable/disable 
@@ -366,10 +366,10 @@ void BCHTS4085::enableInterrupt(void)
 void BCHTS4085::disableInterrupt(void)
 {
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 
 	configContents = (configContents & 0xFB);
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 }
 
 
@@ -378,7 +378,7 @@ void BCHTS4085::disableInterrupt(void)
 void BCHTS4085::setRate(int rate)
 { 
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 	
 	switch(rate)
 	{
@@ -424,13 +424,13 @@ void BCHTS4085::setRate(int rate)
 			configContents = (configContents & 0x8F);
 	}
 	
-	writeReg(CONFIG, configContents);
+	writeReg(BCHTS4085_CONFIG, configContents);
 }
 
 uint8_t BCHTS4085::readConfig(void)
 { 
   uint8_t configContents;
-  configContents = readReg(CONFIG);
+  configContents = readReg(BCHTS4085_CONFIG);
 
   return (configContents);
 }
@@ -439,7 +439,7 @@ uint8_t BCHTS4085::readConfig(void)
 void BCHTS4085::setInterruptPolarity(int polarity)
 {
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 	
 	switch(polarity)
 	{
@@ -455,7 +455,7 @@ void BCHTS4085::setInterruptPolarity(int polarity)
 			configContents = (configContents & 0xFD);
 	}
 	
-	writeReg(CONFIG, configContents);	
+	writeReg(BCHTS4085_CONFIG, configContents);	
 }
 
 /*  Bit 0 of the CONFIG register can be used to control the  
@@ -463,7 +463,7 @@ void BCHTS4085::setInterruptPolarity(int polarity)
 void BCHTS4085::setInterruptMode(int mode)
 {
 	uint8_t configContents;
-	configContents = readReg(CONFIG);
+	configContents = readReg(BCHTS4085_CONFIG);
 	
 	switch(mode)
 	{
@@ -479,7 +479,7 @@ void BCHTS4085::setInterruptMode(int mode)
 			configContents = (configContents & 0xFE);
 	}
 	
-	writeReg(CONFIG, configContents);	
+	writeReg(BCHTS4085_CONFIG, configContents);	
 }
 
 uint8_t BCHTS4085::readInterruptStatus(void)
