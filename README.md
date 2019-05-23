@@ -10,7 +10,7 @@ This is an Arduino IDE library to BC Sensor Series
 - /src - Source files for the library (.cpp, .h).
 
 # Examples
-- **BC_Seonsr_Series** - the BC Sensor Series(BCDPDC100, BCHTS4085, BCALS083K, BCACC316G, BCAQS1187) for Arduino. 
+- **BC_Sensor_Series** - the BC Sensor Series(BCDPDC100, BCHTS4085, BCALS083K, BCACC316G, BCAQS1187) for Arduino. 
 - **BCACC316G** - the BCACC316G Sensor(ADXL343_3axis accelerometer) for Arduino. 
 - **BCALS083K** - the BCALS083K Sensor(OPT3001_Q1_Ambient Light Sensor) for Arduino.
 - **BCAQS1187** - the BCAQS1187 Sensor(CSS811_air quality sensor) for Arduino.
