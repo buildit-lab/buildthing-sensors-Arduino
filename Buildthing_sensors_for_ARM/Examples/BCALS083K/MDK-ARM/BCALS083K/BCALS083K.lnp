@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"bcals083k\startup_stm32f407xx.o"
+"bcals083k\main.o"
+"bcals083k\stm32f4xx_it.o"
+"bcals083k\stm32f4xx_hal_msp.o"
+"bcals083k\bcals083k.o"
+"bcals083k\stm32f4xx_hal_i2c.o"
+"bcals083k\stm32f4xx_hal_i2c_ex.o"
+"bcals083k\stm32f4xx_hal_tim.o"
+"bcals083k\stm32f4xx_hal_tim_ex.o"
+"bcals083k\stm32f4xx_hal_uart.o"
+"bcals083k\stm32f4xx_hal_rcc.o"
+"bcals083k\stm32f4xx_hal_rcc_ex.o"
+"bcals083k\stm32f4xx_hal_flash.o"
+"bcals083k\stm32f4xx_hal_flash_ex.o"
+"bcals083k\stm32f4xx_hal_flash_ramfunc.o"
+"bcals083k\stm32f4xx_hal_gpio.o"
+"bcals083k\stm32f4xx_hal_dma_ex.o"
+"bcals083k\stm32f4xx_hal_dma.o"
+"bcals083k\stm32f4xx_hal_pwr.o"
+"bcals083k\stm32f4xx_hal_pwr_ex.o"
+"bcals083k\stm32f4xx_hal_cortex.o"
+"bcals083k\stm32f4xx_hal.o"
+"bcals083k\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "BCALS083K\BCALS083K.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BCALS083K.map" -o BCALS083K\BCALS083K.axf

@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"bcaqs1187\startup_stm32f407xx.o"
+"bcaqs1187\bcaqs1187.o"
+"bcaqs1187\main.o"
+"bcaqs1187\stm32f4xx_it.o"
+"bcaqs1187\stm32f4xx_hal_msp.o"
+"bcaqs1187\stm32f4xx_hal_i2c.o"
+"bcaqs1187\stm32f4xx_hal_i2c_ex.o"
+"bcaqs1187\stm32f4xx_hal_tim.o"
+"bcaqs1187\stm32f4xx_hal_tim_ex.o"
+"bcaqs1187\stm32f4xx_hal_uart.o"
+"bcaqs1187\stm32f4xx_hal_rcc.o"
+"bcaqs1187\stm32f4xx_hal_rcc_ex.o"
+"bcaqs1187\stm32f4xx_hal_flash.o"
+"bcaqs1187\stm32f4xx_hal_flash_ex.o"
+"bcaqs1187\stm32f4xx_hal_flash_ramfunc.o"
+"bcaqs1187\stm32f4xx_hal_gpio.o"
+"bcaqs1187\stm32f4xx_hal_dma_ex.o"
+"bcaqs1187\stm32f4xx_hal_dma.o"
+"bcaqs1187\stm32f4xx_hal_pwr.o"
+"bcaqs1187\stm32f4xx_hal_pwr_ex.o"
+"bcaqs1187\stm32f4xx_hal_cortex.o"
+"bcaqs1187\stm32f4xx_hal.o"
+"bcaqs1187\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "BCAQS1187\BCAQS1187.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BCAQS1187.map" -o BCAQS1187\BCAQS1187.axf

@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"bchts4085\startup_stm32f407xx.o"
+"bchts4085\main.o"
+"bchts4085\stm32f4xx_it.o"
+"bchts4085\stm32f4xx_hal_msp.o"
+"bchts4085\bchts4085.o"
+"bchts4085\stm32f4xx_hal_i2c.o"
+"bchts4085\stm32f4xx_hal_i2c_ex.o"
+"bchts4085\stm32f4xx_hal_tim.o"
+"bchts4085\stm32f4xx_hal_tim_ex.o"
+"bchts4085\stm32f4xx_hal_uart.o"
+"bchts4085\stm32f4xx_hal_rcc.o"
+"bchts4085\stm32f4xx_hal_rcc_ex.o"
+"bchts4085\stm32f4xx_hal_flash.o"
+"bchts4085\stm32f4xx_hal_flash_ex.o"
+"bchts4085\stm32f4xx_hal_flash_ramfunc.o"
+"bchts4085\stm32f4xx_hal_gpio.o"
+"bchts4085\stm32f4xx_hal_dma_ex.o"
+"bchts4085\stm32f4xx_hal_dma.o"
+"bchts4085\stm32f4xx_hal_pwr.o"
+"bchts4085\stm32f4xx_hal_pwr_ex.o"
+"bchts4085\stm32f4xx_hal_cortex.o"
+"bchts4085\stm32f4xx_hal.o"
+"bchts4085\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "BCHTS4085\BCHTS4085.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BCHTS4085.map" -o BCHTS4085\BCHTS4085.axf

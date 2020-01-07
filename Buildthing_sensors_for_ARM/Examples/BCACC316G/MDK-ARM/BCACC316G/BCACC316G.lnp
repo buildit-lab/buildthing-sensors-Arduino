@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"bcacc316g\startup_stm32f407xx.o"
+"bcacc316g\main.o"
+"bcacc316g\stm32f4xx_it.o"
+"bcacc316g\stm32f4xx_hal_msp.o"
+"bcacc316g\bcacc316g.o"
+"bcacc316g\stm32f4xx_hal_i2c.o"
+"bcacc316g\stm32f4xx_hal_i2c_ex.o"
+"bcacc316g\stm32f4xx_hal_tim.o"
+"bcacc316g\stm32f4xx_hal_tim_ex.o"
+"bcacc316g\stm32f4xx_hal_uart.o"
+"bcacc316g\stm32f4xx_hal_rcc.o"
+"bcacc316g\stm32f4xx_hal_rcc_ex.o"
+"bcacc316g\stm32f4xx_hal_flash.o"
+"bcacc316g\stm32f4xx_hal_flash_ex.o"
+"bcacc316g\stm32f4xx_hal_flash_ramfunc.o"
+"bcacc316g\stm32f4xx_hal_gpio.o"
+"bcacc316g\stm32f4xx_hal_dma_ex.o"
+"bcacc316g\stm32f4xx_hal_dma.o"
+"bcacc316g\stm32f4xx_hal_pwr.o"
+"bcacc316g\stm32f4xx_hal_pwr_ex.o"
+"bcacc316g\stm32f4xx_hal_cortex.o"
+"bcacc316g\stm32f4xx_hal.o"
+"bcacc316g\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "BCACC316G\BCACC316G.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BCACC316G.map" -o BCACC316G\BCACC316G.axf
