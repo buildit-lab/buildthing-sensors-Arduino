@@ -94,27 +94,7 @@ See ***Library Tested Conditions*** and check your development environment. Then
 
     Build target files and Download code to flash memory. You can get your sensor data by using any terminal program.
     <img src="/Extra/photo/Serial_Data.png" width=40%>
-    
-If you want to use your own processor, try following steps.
-- **Step 1** STM32CubeMX Setup
 
-    **1. STM32CubeMX Download**
-    Go to ST company website and download STM32cubeMX.(<a href="https://www.st.com/" rel="nofollow">www.st.com</a>) And please read user manual.
-    
-    **2. Select Processor**
-    Check your processor name and create STM32cubeMX project file.
-    <img src="/Extra/photo/select_processor.PNG" width=40%>
-    
-    **3. Setting Clock Configuration**
-    Set the RCC Clock to match the processor datasheet and your circuit.
-    <img src="/Extra/photo/set_clock.PNG" width=40%>
-    
-    **4. Setting Peripheral Circuit**
-    Set I2C(Inter-Integrated Circuit) connectivity, USART(UART) Connectivity, GPIO, and so on. Then, click the ***GENERATE CODE*** button.
-    <img src="/Extra/illust/STM32F407VGTx.PNG" width=40%>
-    
-- **Step 2** Include Header(.h) And Source(.c) File
-    
     
 
 
