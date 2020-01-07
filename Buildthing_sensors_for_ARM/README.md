@@ -37,19 +37,19 @@ This is an Keil uVision5 library using stm32fvgt6x microcontroller to BC Sensor 
  <img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BC_Sensor_Series.png" width=40%>
  <a href="http://www.devicemart.co.kr/1384726" rel="nofollow">BC_Sensor_Series</a>
 <hr/>
-<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCACC316G.png" width=40%>
+<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCACC316G.PNG" width=40%>
 <a href="http://www.devicemart.co.kr/1384698" rel="nofollow">BCACC316G</a>
 <hr/>
-<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCALS083K.png" width=40%>
+<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCALS083K.PNG" width=40%>
 <a href="http://www.devicemart.co.kr/1384700" rel="nofollow">BCALS083K</a>
 <hr/>
-<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCAQS1187.png" width=40%>
+<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCAQS1187.PNG" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCAQS1187</a>
 <hr/>
-<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCDPDC100.png" width=40%>
+<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCDPDC100.PNG" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCDPDC100</a>
 <hr/>
-<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCHTS4085.png" width=40%>
+<img src="/Buildthing_sensors_for_ARM/Extra/illust/Wire_BCHTS4085.PNG" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCHTS4085</a>
 <hr/>
 
@@ -93,7 +93,7 @@ See ***Library Tested Conditions*** and check your development environment. Then
 - **Step 4** Build the example
 
     Build target files and Download code to flash memory. You can get your sensor data by using any terminal program.
-    <img src="/Buildthing_sensors_for_ARM/Extra/photo/Serial_Data.png" width=40%>
+    <img src="/Buildthing_sensors_for_ARM/Extra/photo/Serial_Data.PNG" width=40%>
 
     
 
