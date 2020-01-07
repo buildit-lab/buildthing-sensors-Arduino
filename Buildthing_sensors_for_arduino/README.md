@@ -1,5 +1,5 @@
 ﻿# build-thing-sensors
-<img src="Buildthing_sensors_for_arduino/Extra/photo/Front_BC_Sensor_Serise.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/photo/Front_BC_Sensor_Serise.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384726" rel="nofollow">BC_Sensor_Series</a>
 
 This is an Arduino IDE library to BC Sensor Series
@@ -26,22 +26,22 @@ This is an Arduino IDE library to BC Sensor Series
 - <a href="http://www.devicemart.co.kr/1384697" rel="nofollow">BCHTS4085</a>
 
 # Typical Application
- <img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BC_Sensor_Series.png" width=40%>
+ <img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BC_Sensor_Series.png" width=40%>
  <a href="http://www.devicemart.co.kr/1384726" rel="nofollow">BC_Sensor_Series</a>
 <hr/>
-<img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BCACC316G.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCACC316G.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384698" rel="nofollow">BCACC316G</a>
 <hr/>
-<img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BCALS083K.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCALS083K.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384700" rel="nofollow">BCALS083K</a>
 <hr/>
-<img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BCAQS1187.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCAQS1187.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCAQS1187</a>
 <hr/>
-<img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BCDPDC100.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCDPDC100.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCDPDC100</a>
 <hr/>
-<img src="Buildthing_sensors_for_arduino/Extra/illust/Wire_BCHTS4085.png" width=40%>
+<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCHTS4085.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCHTS4085</a>
 <hr/>
 
@@ -78,12 +78,12 @@ This is an Arduino IDE library to BC Sensor Series
   
     Run the Arduino IDE Program. Then add the library by reffering to the following picture.
     If it is successfully completed, You can find the message “Library added to your libraries.”
-    <img src="/Extra/illust/Add_library_menu.png" width=40%>
+    <img src="/Buildthing_sensors_for_arduino/Extra/illust/Add_library_menu.png" width=40%>
  
 - **Step 3** Select the example 
     
     Refer to the picture below, and select the example of the sensor module you own.
-    <img src="/Extra/illust/Select_example.png" width=40%>    
+    <img src="/Buildthing_sensors_for_arduino/Extra/illust/Select_example.png" width=40%>    
 
 - **Step 4** (Optional)Edit code
 
@@ -161,6 +161,6 @@ This is an Arduino IDE library to BC Sensor Series
     
     Function references can be found in each sensor library header file. For usage, see the readSensorsData () function in each example.
 
-    <img src="Buildthing_sensors_for_arduino/Extra/illust/SERIAL_MONITOR_BC_SENSOR_SERIES.png" width=60%>
+    <img src="/Buildthing_sensors_for_arduino/Extra/illust/SERIAL_MONITOR_BC_SENSOR_SERIES.png" width=60%>
 
 <hr/>
