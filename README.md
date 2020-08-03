@@ -1,5 +1,5 @@
 ﻿# build-thing-sensors
-<img src="/Buildthing_sensors_for_arduino/Extra/photo/Front_BC_Sensor_Serise.png" width=40%>
+<img src="/Extra/photo/Front_BC_Sensor_Serise.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384726" rel="nofollow">BC_Sensor_Series</a>
 
 This is an Arduino IDE library to BC Sensor Series
@@ -26,22 +26,22 @@ This is an Arduino IDE library to BC Sensor Series
 - <a href="http://www.devicemart.co.kr/1384697" rel="nofollow">BCHTS4085</a>
 
 # Typical Application
- <img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BC_Sensor_Series.png" width=40%>
+ <img src="/Extra/illust/Wire_BC_Sensor_Series.png" width=40%>
  <a href="http://www.devicemart.co.kr/1384726" rel="nofollow">BC_Sensor_Series</a>
 <hr/>
-<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCACC316G.png" width=40%>
+<img src="/Extra/illust/Wire_BCACC316G.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384698" rel="nofollow">BCACC316G</a>
 <hr/>
-<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCALS083K.png" width=40%>
+<img src="/Extra/illust/Wire_BCALS083K.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384700" rel="nofollow">BCALS083K</a>
 <hr/>
-<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCAQS1187.png" width=40%>
+<img src="/Extra/illust/Wire_BCAQS1187.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCAQS1187</a>
 <hr/>
-<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCDPDC100.png" width=40%>
+<img src="/Extra/illust/Wire_BCDPDC100.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCDPDC100</a>
 <hr/>
-<img src="/Buildthing_sensors_for_arduino/Extra/illust/Wire_BCHTS4085.png" width=40%>
+<img src="/Extra/illust/Wire_BCHTS4085.png" width=40%>
 <a href="http://www.devicemart.co.kr/1384706" rel="nofollow">BCHTS4085</a>
 <hr/>
 
